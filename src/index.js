@@ -8,7 +8,8 @@ export default (editor, opts = {}) => {
     ...{
       tblResizable: true,
       cellsResizable:true,
-      traitsPanelId:"#open-tm"
+      traitsPanelId:"#open-tm",
+      settingsPanel:'open-tm'
     },
     ...opts,
   };

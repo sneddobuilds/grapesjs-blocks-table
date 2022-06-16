@@ -9,6 +9,7 @@ Plugin for GrapesJS that adds table block.
 |`containerId`|Container to wich will be binded jQuery Event handlers to control adding new table and handler for adding and removing rows and columns.|`document`|
 |`tblResizable`|Should the table have resize handles|`true`|
 |`cellsResizable`|Should cells within the table have resize handles|`true`|
+|`settingsPanel`|Id of the settings panel, used to open the panel in the editor from the cog icon on the toolbar|`open-tm`|
 
 ## Usage
 

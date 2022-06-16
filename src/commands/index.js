@@ -2,6 +2,7 @@ import $ from "jquery";
 import * as tblHelper from "../tableHelper"
 
 export default (editor, opts = {}) => {
+    const settingPanel = opts.settingsPanel
     const cmd = editor.Commands;
     const cellType = "tbl-cell"
     
@@ -255,7 +256,7 @@ export default (editor, opts = {}) => {
 
     cmd.add('open-traits-settings', {
       run(editor, sender, opts = {}) {
-        editor.Panels.getButton('views', 'open-tm').set('active', true);
+        editor.Panels.getButton('views', settingPanel).set('active', true);
       }
     });
 
